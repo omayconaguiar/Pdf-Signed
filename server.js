@@ -1,6 +1,7 @@
 const express = require('express')
 const upload = require('express-fileupload')
 const app = express()
+require('dotenv').config()
 
 app.use(upload())
 
@@ -70,4 +71,4 @@ app.post('/', (req, res) => {
     }
 })
 
-app.listen(5000)
+app.listen(process.env.PORT || 5000)
