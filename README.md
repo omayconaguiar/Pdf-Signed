@@ -12,6 +12,10 @@
 
 * node server.js
 
+### Deploy 
+
+* https://uploadpdfsign.herokuapp.com/
+
 ## Author
 
 Maycon Aguiar 
@@ -20,17 +24,18 @@ Maycon Aguiar
 
 Caso for rodar locamente a url é:
 http://localhost:5000/
+
 Caso for rodar no heroku:
 https://uploadpdfsign.herokuapp.com/
 
 * POST - Rota para enviar o pdf, o arquivo pfx (com sua respectiva senha). Obs: enviar arquivos nos respectivos botões.
-    * http://localhost:5000/ OU https://uploadpdfsign.herokuapp.com/
+    * http://localhost:5000/ (local) OU https://uploadpdfsign.herokuapp.com/ (produção)
 
 * GET - Rota para receber via insomnia/postman o html. Ou se preferir só abrir o navegador com a url abaixo:
-    * http://localhost:5000/ OU https://uploadpdfsign.herokuapp.com/
+    * http://localhost:5000/ (local) OU https://uploadpdfsign.herokuapp.com/ (produção)
 
-* GET - Rota para receber o pdf assinado, recebendo via postman/ insomnia só baixar o pdf e abrir no adobe reader que conseguirá ver a a assinatura.
-    * http://localhost:5000/receive-pdf OU https://uploadpdfsign.herokuapp.com/receive-pdf
+* GET - Rota para receber o pdf assinado. Para conferir a assinatura basta abrir o pdf no Adobe Reader.
+    * http://localhost:5000/receive-pdf (local) OU https://uploadpdfsign.herokuapp.com/receive-pdf (produção)
 
 ## Conclusões
 
