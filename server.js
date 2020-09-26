@@ -14,17 +14,8 @@ app.post('/', (req, res) => {
         var length = req.files.file.length
         if(!length)
         length = 1
-        for(var i = 0 ; i< length;i++){       
-            var file = req.files.file[i]                        
-            var data = req.files.file[i].data
-            var filename = file.name
-            file.mv('./uploads/'+ filename, function(err){
-                if(err){
-                    res.send(err)
-                } else{
-                    console.log("works")
-                }
-            })
+        for(var i = 0 ; i< length;i++){                   
+            var data = req.files.file[i].data            
             var copyPassword = req.body.pass     
             copyFileName[i] = data            
         }        
