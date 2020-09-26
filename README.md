@@ -39,4 +39,4 @@ https://uploadpdfsign.herokuapp.com/
 
 ## Conclusões
 
-Enviando um pdf e um arquivo pfx a assinatura é realizada como êxito. Caso dê algum tipo de erro, possivelmente a senha informada está errada, confira de novo e tente novamente.
+Enviando um pdf e um arquivo pfx a assinatura é realizada com êxito. Caso dê algum tipo de erro, possivelmente a senha informada está errada, confira de novo e tente novamente.
